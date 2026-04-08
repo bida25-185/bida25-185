@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CampusConnect - Home</title>
+    <title>CampusConnect - Contact</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -23,7 +23,32 @@
     </header>
 
     <main>
-        <!-- Page specific content goes here -->
+        <div class="container">
+            <h1>Contact Us</h1>
+            <div class="columns">
+                <div class="column">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        
+                        <button type="submit" class="btn">SUBMIT</button>
+                    </form>
+                </div>
+                <div class="column">
+                    <h2>Contact Information</h2>
+                    <p><strong>Email:</strong> campusconnect@university.ac.bw</p>
+                    <p><strong>Phone:</strong> +267 123 4567</p>
+                    <p><strong>Location:</strong> University Campus, Gaborone</p>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
